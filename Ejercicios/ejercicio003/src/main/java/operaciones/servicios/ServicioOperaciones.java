@@ -43,6 +43,7 @@ public class ServicioOperaciones {
         float multiplicacion;    
         
         if(a==0 || b==0){
+            System.out.println("Ingrese un valor diferente de cero");
             return 0;
         } else {
             multiplicacion = a * b;
@@ -54,6 +55,7 @@ public class ServicioOperaciones {
         float division;
        
         if(b==0){
+            System.out.println("Ingrese un valor diferente de cero");
             return 0;
         } else {
             division = a / b;
